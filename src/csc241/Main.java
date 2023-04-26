@@ -40,7 +40,7 @@ public class Main {
         String myUpc = "";
         do {
             // Prompt the user
-            System.out.println("Enter the UPC:");
+            System.out.println("Enter the UPC (or exit):");
             myUpc = kb.nextLine();
             CompactDisc myCd = db.get(myUpc);
             if (myCd == null) {
